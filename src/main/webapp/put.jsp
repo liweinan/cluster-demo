@@ -4,7 +4,7 @@
  <%
      session.setAttribute("current.time", new java.util.Date());
  %>
- Hello! The time is set to <%= session.getAttribute("current.time", new java.util.Date()) %>
+ The time is set to <%= session.getAttribute("current.time") %>
  </body>
  </html>
 
